@@ -155,7 +155,12 @@ int main()
                 cout<<"Pilih Menu [1/2/3/4] : "; cin>>menu;
                 if(menu==1)
                 { //ini tinggal di ubah jadi inputan biar //
-            double mat[N][N+1] = {{3.0, 2.0,-4.0, 3.0},
+                     int submenu;
+                    cout << "Silakan pilih metode " << endl;
+                    cout << "1. Metode Eliminasi Gauss" << endl;
+                    cout << " "
+                    if(submenu = 1 ){
+                        double mat[N][N+1] = {{3.0, 2.0,-4.0, 3.0},
                           {2.0, 3.0, 3.0, 15.0},
                           {5.0, -3, 1.0, 14.0}
                          };
@@ -163,6 +168,17 @@ int main()
             gaussianElimination(mat);
 
             return 0;
+                    }else if(submenu= 2){
+                    
+                    }else if(submenu=3 ){
+                    
+                    }else{
+                    
+                    }
+                    
+                       
+                       
+                       
 
                 }
                 else if(menu==2)
